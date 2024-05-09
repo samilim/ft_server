@@ -1,5 +1,20 @@
 # server
 
+### Consignes du projet
+- Vous devrez, dans un seul container Docker, mettre en place un serveur web avec
+Nginx. Le container devra tourner avec Debian Buster
+- Votre serveur devra être capable de faire tourner plusieurs services en même temps.
+Les services seront un Wordpress à installer par vous même, ainsi que Phpmyadmin
+et MySQL. Vous devrez vous assurer que votre base de donnée SQL fonctionne
+avec le wordpress et phpmyadmin.
+- Votre serveur devra pouvoir, quand c’est possible, utiliser le protocole SSL.
+- Vous devrez vous assurer que, selon l’url tapé, votre server redirige vers le bon
+site.
+- Vous devrez aussi vous assurer que votre serveur tourne avec un index automatique
+qui doit pouvoir être désactivable.
+
+____________________
+
 ## For my evaluator
 
 - docker build -t containername .
@@ -43,19 +58,6 @@ Les pages Web statiques sont celles dont le contenu ne peut pas changer que si u
 https://business-antidote.com/difference-entre-site-statique-et-site-dynamique/
 Le serveur statique ne contient que l'OS et le serveur http
 
-
-### Consignes du projet
-- Vous devrez, dans un seul container Docker, mettre en place un serveur web avec
-Nginx. Le container devra tourner avec Debian Buster
-- Votre serveur devra être capable de faire tourner plusieurs services en même temps.
-Les services seront un Wordpress à installer par vous même, ainsi que Phpmyadmin
-et MySQL. Vous devrez vous assurer que votre base de donnée SQL fonctionne
-avec le wordpress et phpmyadmin.
-- Votre serveur devra pouvoir, quand c’est possible, utiliser le protocole SSL.
-- Vous devrez vous assurer que, selon l’url tapé, votre server redirige vers le bon
-site.
-- Vous devrez aussi vous assurer que votre serveur tourne avec un index automatique
-qui doit pouvoir être désactivable.
 
 ____________
 ## trucs à savoir
