@@ -60,7 +60,7 @@ Le serveur statique ne contient que l'OS et le serveur http
 
 
 ____________
-## trucs à savoir
+## notes
 
 ### Les ports 80 et 443
 80 : port HTTP
